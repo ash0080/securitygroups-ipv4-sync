@@ -1,0 +1,27 @@
+{
+  "name": "auto-secure-groups-updater",
+  "version": "1.0.0",
+  "description": "Sync your local IP with your cloud services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Elvis Cheng",
+  "license": "MIT",
+  "dependencies": {
+    "@alicloud/pop-core": "^1.5.2",
+    "aws-sdk": "^2.252.1",
+    "bluebird": "^3.5.1",
+    "cron": "^1.3.0",
+    "external-ip": "^2.0.3",
+    "incache": "^7.0.5",
+    "lodash": "^4.17.10",
+    "node-notifier": "^5.2.1",
+    "serialize-error": "^2.1.0",
+    "tencentcloud-sdk-nodejs": "^3.0.6"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "TITLE": "autoSecureGroupsUpdater 1.0",
+  "CRONTIME": "*/15 * * * *",
+  "QUIET": true,
+  "AWS": [
+    {
+      "profile": "$yourname",
+      "region": "$region",
+      "groupIds": [
+        "$groupId1",
+        "$groupId2"
+      ]
+    }
+  ],
+  "ALICLOUD": [
+    {
+      "accessKeyId": "$accessKeyId",
+      "accessKey": "$accessKey",
+      "endpoint": "https://ecs.aliyuncs.com",
+      "apiVersion": "2014-05-26",
+      "regionId": "$region",
+      "securityGroupIds": [
+        "$groupId1"
+      ]
+    }
+  ],
+  "TENCENTCLOUD": [
+    {
+      "secretId": "$secretId",
+      "secretKey": "$secretKey",
+      "regionId": "$regionId",
+      "apiVersion": "2017-03-12",
+      "securityGroupIds": [
+        "$groupId1"
+      ]
+    }
+  ]
+}
