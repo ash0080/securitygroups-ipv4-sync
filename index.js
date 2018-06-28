@@ -28,7 +28,7 @@ const doUpdate = async () => {
       store.set('ip', ip)
       store.save()
       if (!CONF.QUIET) {
-        noti('更新安全组失败', '操作未能全部执行', true)
+        noti('更新安全组成功', 'ALL RIGHT', true)
       }
     }
   } catch (err) {
